@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proje</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        color: white;
+        padding: 10px;
+    }
+
+    .logo img {
+        max-width: 100px;
+        /* Logonun maksimum genişliği */
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+        color: orange;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .card p {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(8fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .card-1 img {
+        width: 600px;
+        height: 300px;
+    }
+
+    .container {
+        margin: 0px auto;
+        width: 1100px;
+
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 50px;
+    }
+
+    .card-2 {
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+
+    .card-3 {
+        margin: 0px;
+    }
+
+    .abc {
+        padding: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Üç sütunlu grid */
+        gap: 20px;
+        /* Sütunlar arası boşluk */
+    }
+
+    .box {
+        background-color: #ccc;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .h3 {
+        color: orange;
+    }
+
+    .box {
+        background-color: white;
+    }
+
+    .yan img {
+        float: left;
+    }
+
+    .asdf {
+        color: gray;
+    }
+
+    .text-info {
+        display: grid;
+        grid-template-columns: auto 5fr;
+
+    }
+
+    .text-info h2{
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .text-info span{
+        display: block;
+    }
+
+    .buton{
+        width: 200px;
+        float: right;
+        font-size: large;
+    }
+
+    .bright{
+        font-size: large;
+    }
+</style>
+
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="logo.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Populer</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div class="card-container container">
+        <div class="card-1">
+            <img src="image-web-3-desktop.jpg" alt="Resim 1">
+            <div class="text-info">
+                <h2 class="bright">The Bright <span>Future</span> Of Web 3.0?</h2>
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur provident non blanditiis
+                        necessitatibus eaque ut deserunt sit natus enim atque?</p> <button class="buton" type="button">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-2">
+            <h5>New</h5>
+            <h2>Hydrojen VS Electrics Cars</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae impedit enim officiis voluptatum totam
+                accusantium ipsum blanditiis quisquam placeat exercitationem!</p>
+            <hr>
+            <h3>The Dowmside Of Al Artistry</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, laboriosam.</p>
+            <hr>
+            <h3 class="abc">Is VC Funding Drying Up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, natus.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="grid-container">
+            <div class="box">
+                <div class="yan">
+                    <img src="image-gaming-growth.jpg" alt="">
+                    <h1 class="asdf">01</h1>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, explicabo.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="yan">
+                    <img src="image-retro-pcs.jpg" alt="">
+                    <h1 class="asdf">02</h1>
+                    <h3 class="h3">Top 10 Laptops of 2023</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, a.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="yan">
+                    <img src="image-top-laptops.jpg" alt="">
+                    <h1 class="asdf">03</h1>
+                    <h3>The Growth Of Gaming</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
